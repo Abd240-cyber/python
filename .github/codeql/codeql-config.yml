@@ -1,0 +1,10 @@
+query-filters:
+  - include:
+      id: py/path-injection
+  - include:
+      id: py/unsafe-file-operation
+paths:
+  - '.'
+paths-ignore:
+  - '**/test/**'
+  - '**/tests/**'
